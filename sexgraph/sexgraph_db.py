@@ -11,8 +11,6 @@ class University(Base):
     id = Column(Integer, primary_key=True)
     name = Column(String(128))
     email_domain = Column(String(64))
-    public_key = Column(String(256))
-    private_key = Column(String(256))
 
 
 class Node(Base):
